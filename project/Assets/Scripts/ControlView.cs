@@ -6,6 +6,9 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using TMPro;
 
+/// <summary>
+/// UI管理
+/// </summary>
 public class ControlView : MonoBehaviour
 {
     [Header("--- ロボット移動用ボタン ---")]

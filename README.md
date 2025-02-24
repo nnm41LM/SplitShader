@@ -69,4 +69,5 @@
 [📖 シェーダー入門](https://nn-hokuson.hatenablog.com/entry/2018/02/15/140037)  
 [📖 設計パターン](https://speakerdeck.com/torisoup/unityniokerushe-ji-patan)  
 [📖 視点移動カメラ](https://esprog.hatenablog.com/entry/2016/03/20/033322)  
+[📖 EventTrigger拡張メソッド](https://qiita.com/Yamara/items/42b18a402c5bda132f37)  
 

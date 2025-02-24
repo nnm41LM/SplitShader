@@ -19,11 +19,10 @@ public class ControlModel
         _robotObj = robotObj;
     }
 
-    public void TranslateRobotTransform(Vector3 direction)// TODO: ロボットの方向に合わせる
-    {
-        _robotObj.transform.localPosition += direction * _translateSpeed;
-    }
-
+    /// <summary>
+    /// 任意の方向にロボットを平行移動させる
+    /// </summary>
+    /// <param name="direction">移動させる方向の指示文字列</param>
     public void TranslateRobotLocalTransform(string direction)
     {
         switch (direction)
@@ -44,6 +43,10 @@ public class ControlModel
         }
     }
 
+    /// <summary>
+    /// Y軸中心にロボットを回転させる
+    /// </summary>
+    /// <param name="isLeft">左回転にするかどうか</param>
     public void RotateRobotTransform(bool isLeft)
     {
         var coefficient = isLeft ? 1 : -1;
