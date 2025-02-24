@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cb1ef0a74ff2a94488559fb517ccc278
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - LINE Seed JP App_OTF
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d8c81505d0a49694da89710e808259ba, type: 3}
+  - {fileID: 12800000, guid: d97ded33917d66b48bfb0bdc8d31ae87, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
