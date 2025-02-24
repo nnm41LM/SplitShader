@@ -15,16 +15,10 @@ public class ControlPresenter : MonoBehaviour
         _view = FindObjectOfType<ControlView>();
         _view.Init();
 
-        // _view.OnHoldForwardButton?.AddListener(() => _model.TranslateRobotTransform(Vector3.forward));
-        // _view.OnHoldBackButton?.AddListener(() => _model.TranslateRobotTransform(Vector3.back));
-        // _view.OnHoldLeftButton?.AddListener(() => _model.TranslateRobotTransform(Vector3.left));
-        // _view.OnHoldRightButton?.AddListener(() => _model.TranslateRobotTransform(Vector3.right));
         _view.OnHoldForwardButton?.AddListener(() => _model.TranslateRobotLocalTransform("forward"));
         _view.OnHoldBackButton?.AddListener(() => _model.TranslateRobotLocalTransform("back"));
         _view.OnHoldLeftButton?.AddListener(() => _model.TranslateRobotLocalTransform("left"));
         _view.OnHoldRightButton?.AddListener(() => _model.TranslateRobotLocalTransform("right"));
-
-
 
         _view.OnHoldRotateLeftButton?.AddListener(() => _model.RotateRobotTransform(true));
         _view.OnHoldRotateRightButton?.AddListener(() => _model.RotateRobotTransform(false));

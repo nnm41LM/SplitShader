@@ -4362,19 +4362,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282428610}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1419687933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8296172668320870130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed01efd0e20c15d4688218f88d35ff04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diff: 0.01
 --- !u!1 &1470959270
 GameObject:
   m_ObjectHideFlags: 0
@@ -7684,7 +7671,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5006512736206003425}
   - component: {fileID: 3506690171319673210}
-  - component: {fileID: 1419687933}
   m_Layer: 0
   m_Name: Robot Kyle
   m_TagString: Untagged
