@@ -47,7 +47,7 @@
 /project/*.mdb
 /project/*.opendb
 /project/*.VC.db
-/project/.vsconfig/
+/project/.vsconfig
 
 # VSCode
 /project/.vscode/
